@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  text-align: "center";
+  background-color: #fff;
+}
+
+.clickable {
+  text-decoration: none;
+  cursor: pointer;
+  color: #7da3a1;
+}
+
+.clickable:hover {
+  color: #324851;
+}
+
+.footer {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}

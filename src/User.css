@@ -1,0 +1,32 @@
+.user__row {
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) repeat(3, minmax(80px, 4fr));
+  grid-template-rows: 60px;
+  align-items: center;
+}
+
+.user__row,
+.user__row + div {
+  border: 1px solid #ebebeb;
+}
+
+.user__position {
+  text-align: center;
+}
+
+.user__info {
+  width: 100%;
+  display: flex;
+  justify-self: flex-start;
+}
+
+.user__photo {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #86ac41;
+}
+
+.user__name {
+  padding: 5px 10px;
+}

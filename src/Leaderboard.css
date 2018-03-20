@@ -1,0 +1,32 @@
+* {
+  color: #324851;
+  font-weight: 500;
+}
+
+.leaderboard__columns {
+  display: grid;
+  grid-template-columns: minmax(20px, 1fr) repeat(3, minmax(80px, 4fr));
+  grid-template-rows: 90px 40px;
+  grid-template-areas:
+    " .   .   header    .   "
+    " .  name recent alltime";
+  font-size: 18px;
+}
+
+.leaderboard__header {
+  grid-area: header;
+  margin-bottom: 1.5em;
+}
+
+.leaderboard__name {
+  grid-area: name;
+  justify-self: center;
+}
+
+.leaderboard__points--recent {
+  grid-area: recent;
+}
+
+.leaderboard__points--alltime {
+  grid-area: alltime;
+}
